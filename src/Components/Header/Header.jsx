@@ -9,13 +9,13 @@ const Header = ({ imgUrl }) => {
     return <header className={cx('header')}>
         <img src={imgUrl} />
     </header>
-}
+};
 
 Header.propTypes = {
     imgUrl: pt.string
-}
+};
 Header.defaultProps = {
     imgUrl: 'https://www.freelogodesign.org/Content/img/logo-ex-7.png'
-}
+};
 
 export default Header;

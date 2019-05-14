@@ -1,0 +1,28 @@
+.root {
+    display: grid;
+    grid-template-areas:
+        "header heder"
+        "nav content"
+        "footer footer";
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 2fr 10fr;
+}
+
+.header {
+    grid-area: header;
+    background: deeppink;
+}
+
+.navbar {
+    grid-area: nav;
+}
+
+.content {
+    grid-area: content;
+    background: darkorange;
+}
+
+.footer {
+    grid-area: footer;
+    background: brown;
+}
