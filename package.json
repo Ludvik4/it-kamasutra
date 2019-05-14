@@ -37,5 +37,8 @@
       "last 10 firefox version",
       "last 10 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.13.0"
   }
 }
